@@ -6,32 +6,24 @@
 
 
 #topo {
-	margin:10px auto 0;
+	margin:20px auto;
 	width:768px;
-	height:200px;
-}
-
-#topo-esquerda	{
-	float:left;
-	margin:45px 0 10px -15px;
-	width:200px;
-}
-
-#topo-direita	{
-	float:right;
-	margin:25px 0 10px 0;
-	width:470px;
+	text-align: center;
 }
 
 #menu {
-    margin-top: 70px;
+    margin: 0 auto;
+    padding: 0 10px;
     border: 2px #1c2b5c solid;
-    border-radius: 20px;
+    border-bottom: 0;
+    border-radius: 20px 20px 0px 0px;
     background-color: #0c6fae;
     text-align: center;
+    width: 768px;
 }
 
 #menu ul {
+    font-size: 14px;
     padding:0px;
     margin:0px;
     background-color:#0c6fae;
@@ -42,7 +34,8 @@
 #menu ul li { display: inline; }
 
 #menu ul li a {
-    padding: 2px 10px;
+    padding: 10px;
+    font-size: 14px; 
     display: inline-block;
  
     /* visual do link */
@@ -71,11 +64,12 @@
 	color:#000;
 }
 #conteudo {
-	margin:20px auto;
+	margin: 0px auto 20px;
 	width:768px;
 	background: #ccc;
     border: 2px #999 solid;
-	border-radius:20px;
+    border-top: 0;
+	border-radius:0 0 20px 20px;
     padding:10px;
 }
 
