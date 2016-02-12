@@ -74,13 +74,14 @@
 }
 
 #conteudo h1 {
-	font:18px Helvetica,Arial,Verdana;
+	font:20px Helvetica,Arial,Verdana;
 	margin: 10px 20px;
 	color:#0c6fae;
 }
 
 #conteudo h2 {
 	font:14px Helvetica,Arial,Verdana;
+	font-weight:bold;
 	margin: 25px 20px 10px;
 	color:#0c6fae;
 }
